@@ -44,7 +44,7 @@ To use the Coinbase Commerce PHP SDK from Composer:
 ```json
 {
     "require": {
-        "codename065/coinabse-commerce-php-sdk": "*"
+        "codename065/coinabse-commerce": "*"
     }
 }
 ```
