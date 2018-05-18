@@ -1,0 +1,38 @@
+{
+    "name": "codename065/coinbase-commerce",
+    "description": "PHP SDK for Coinbase commerce",
+    "type": "library",
+    "license": "GPL",
+    "keywords": [
+        "crypto",
+        "php",
+        "sdk",
+        "coinbase commerce",
+        "rest",
+        "api v1"
+    ],
+    "homepage": "http://api.nettalkconnect.com/",
+    "support": {
+        "email": "support@wpdownloadmanager.com"
+    },
+    "config": {
+        "process-timeout": 5000
+    },
+    "require": {
+        "php": "^5.6 || ^7.0",
+        "guzzlehttp/guzzle":"6.*"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "WPDMPP\\Coinbase\\Commerce\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "WPDMPP\\Coinbase\\Commerce\\Test\\": "test/"
+        }
+    },
+    "minimum-stability": "stable"
+}
