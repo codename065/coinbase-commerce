@@ -7,7 +7,7 @@ namespace WPDMPP\Coinbase\Commerce\Model;
  * This Model class represents the input data used to identify the checkout information
  * according to cryptocurrency payment
  *
- * @author sain <sain@WPDMPP.com>
+ * @author WPDMPP <support@wpdownloadmanager.com>
  */
 class Checkout {
 
@@ -69,7 +69,7 @@ class Checkout {
      * @param string $name
      * @return $this
      */
-    public function setName(string $name){
+    public function setName($name){
         $this->name = $name;
         return $this;
     }
@@ -80,7 +80,7 @@ class Checkout {
      * @param string $description
      * @return $this
      */
-    public function setDescription(string $description){
+    public function setDescription($description){
         $this->description = $description;
         return $this;
     }
@@ -91,7 +91,7 @@ class Checkout {
      * @param string $pricing_type
      * @return $this
      */
-    public function setPricingType(string $pricing_type){
+    public function setPricingType($pricing_type){
         $this->pricing_type = $pricing_type;
         return $this;
     }

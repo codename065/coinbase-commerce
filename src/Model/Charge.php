@@ -7,8 +7,9 @@ namespace WPDMPP\Coinbase\Commerce\Model;
  * This Model class represents the input data used identify the charge information
  * according to cryptocurrency payment
  *
- * @author sain <sain@WPDMPP.com>
+ * @author WPDMPP <support@wpdownloadmanager.com>
  */
+
 class Charge {
 
 	/**
@@ -103,7 +104,7 @@ class Charge {
      * @param string $name
      * @return $this
      */
-    public function setName(string $name){
+    public function setName($name){
         $this->name = $name;
         return $this;
     }
@@ -114,7 +115,7 @@ class Charge {
      * @param string $description
      * @return $this
      */
-    public function setDescription(string $description){
+    public function setDescription($description){
         $this->description = $description;
         return $this;
     }
@@ -125,7 +126,7 @@ class Charge {
      * @param string $pricing_type
      * @return $this
      */
-    public function setPricingType(string $pricing_type){
+    public function setPricingType($pricing_type){
         $this->pricing_type = $pricing_type;
         return $this;
     }
@@ -147,7 +148,7 @@ class Charge {
      * @param string $redirect_url
      * @return $this
      */
-    public function setRedirectUrl(string $redirect_url){
+    public function setRedirectUrl($redirect_url){
         $this->redirect_url = $redirect_url;
         return $this;
     }

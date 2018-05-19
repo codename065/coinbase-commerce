@@ -4,7 +4,7 @@ namespace WPDMPP\Coinbase\Commerce;
 /**
  * Http Client to handle communications with Coinbase Commerce Rest API
  *
- * @author Sain <sain@WPDMPP.com>
+ * @author WPDMPP <support@wpdownloadmanager.com>
  */
 class Client {
 
@@ -142,7 +142,7 @@ class Client {
      * @param string $code 
      * @return string|null json response content
      */
-    public function showCharge(string $code){
+    public function showCharge($code){
 
         return $this->get("charges/{$code}");
     }

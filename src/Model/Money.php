@@ -7,7 +7,7 @@ namespace WPDMPP\Coinbase\Commerce\Model;
  * This Model class represents the input data used identify the money charge information
  * according to the product value
  *
- * @author sain <sain@WPDMPP.com>
+ * @author WPDMPP <support@wpdownloadmanager.com>
  */
 class Money {
 
