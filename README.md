@@ -121,3 +121,8 @@ echo ($response);
 ### Congratulations, You're done!
 
 Any questions regarding the Coinbase Commerce PHP SDK , don't hesitate to contact us at support@wpdownloadmanager.com
+
+### Sell Digital Products Securely
+
+Coinbase payment gateway for WordPress Download Manager
+https://www.wpdownloadmanager.com/download/coinbase-payment-gateway/
