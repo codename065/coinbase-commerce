@@ -124,5 +124,5 @@ Any questions regarding the Coinbase Commerce PHP SDK , don't hesitate to contac
 
 ### Sell Digital Products Securely
 
-Coinbase payment gateway for WordPress Download Manager
+Coinbase payment gateway for <a href="https://www.wpdownloadmanager.com/">WordPress Download Manager</a>
 https://www.wpdownloadmanager.com/download/coinbase-payment-gateway/
